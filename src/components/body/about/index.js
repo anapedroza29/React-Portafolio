@@ -1,14 +1,21 @@
 import React from "react";
 import "./about.css";
 import SocialContact from "../../common/social-contact/index";
+import Type from "./Type"
+
 function About() {
   return (
     <div className="about">
       <div className="about-top">
         <div className="about-info">
-          Enchanté,
-         <br /> <span className="info-name">Victor Philippe</span>.
-         <br /> Développeur Web Freelance
+          Hello There! &#x1F44B; I'm
+         <br /> <span className="info-name">Ana Pedroza </span>
+          <div className="type">
+                <Type />
+              </div>
+            <a className="link-button-resume" href={require("../../../assets/resume.pdf")} download="AnaPedrozaResume.pdf">
+            <span>Download Resume</span>
+          </a>
         </div>
         <div className="about-photo">
           <img 

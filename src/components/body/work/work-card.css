@@ -1,8 +1,6 @@
 .work-card {
     padding: 8px;
-    width: 45%;
-    margin-top: 16px;
-    display: flex;
+    margin-top: 0px;
     justify-content: space-between;
     align-items: center;
     flex-direction: row-reverse;
@@ -31,10 +29,25 @@
     max-width: 80%;
 }
 
-
+.job-name {
+    font-size: 1em; 
+    font-weight: bold;
+    margin: 0px 0px;
+    
+}
+.company-name {
+    font-size: 0.9em; 
+    font-style: italic;
+    font-weight: bold;
+}
 
 @media only screen and (max-width: 720px) {
     .work-card{
         width: 100%;
     }
 }
+.work-desc ul {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+

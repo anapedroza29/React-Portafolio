@@ -8,5 +8,12 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    margin: 24px 0px;
+    margin: 10px 0px;
+}
+
+.work-name {
+    margin-top: 40px;
+    font-size: 1.5em; 
+    font-weight: bold;
+    
 }

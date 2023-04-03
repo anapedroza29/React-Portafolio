@@ -8,10 +8,17 @@ function Work() {
   return (
     <div className="work">
       <Separator />
-      <label className="section-title">Expériences</label>
+      <label className="section-title">Work</label>
       <div className="work-list">
-        {data.map((item) => {
-          return <WorkCard item={item} />;
+        {data.map((item, index) => {
+          return (
+            <div className="work-section" key={index}>
+            <label className="work-name" >{item.type}</label>
+              {item.list.map((work) => {
+                return <WorkCard key={work.id} item={work} />;
+              })}
+          </div>
+          );
         })}
       </div>
     </div>
