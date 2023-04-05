@@ -31,11 +31,12 @@
     border-radius: 4px;
     margin-right: 6px;
     margin-bottom: 4px;
+    color: white;
 }
 
 .project-links a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .project-links{
