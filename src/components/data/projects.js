@@ -8,7 +8,7 @@ export const ProjectData=[
         by location and specialty. Once a user finds a therapist \
         they are interested in, they can view the therapist's \
         profile and add to a wish list.",
-        tags:["ReactJS", "Fast API", "PostgresSQL", "Boostrap"],
+        tags:["ReactJS", "Fast API", "PostgresSQL", "Bootstrap"],
         github:"https://gitlab.com/team-swank/therapy-hub",
         image:require("../../assets/icons/TherapyHub.png"),
     },
