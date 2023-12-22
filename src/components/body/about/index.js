@@ -13,9 +13,6 @@ function About() {
           <div className="type">
                 <Type />
               </div>
-            <a className="link-button-resume" href={require("../../../assets/resume.pdf")} download="AnaPedrozaResume.pdf">
-            <span>Download Resume</span>
-          </a>
         </div>
         <div className="about-photo">
           <img 
