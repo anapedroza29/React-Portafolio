@@ -44,6 +44,12 @@ Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.
 
+3. Git hub deployment:
+   - Make sure that the main is up to date
+   - Make sure to run git pull on local machine
+   - run "npm run deploy"
+   - check settings to make sure pages have the right domain. 
+
 ## Usage Instructions
 
 Open the project folder and Navigate to `/src/components/`. <br/>
